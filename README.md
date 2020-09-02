@@ -9,7 +9,7 @@
 
 ### `O que temos de exemplo até o momento?`
 
-1 - Custom Hooks (Hook adicionando no em localStorage)<br />
+1 - Custom Hooks (Hook adicionando no localStorage)<br />
 2 - Custom Hooks (Hook fazendo Fetch)<br />
 3 - useRef (Mostrando resultado em tela)<br />
 4 - useRef com setTimeout (Mostrando resultado em tela)<br />
