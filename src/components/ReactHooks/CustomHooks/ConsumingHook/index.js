@@ -13,10 +13,7 @@ const ConsumingHook = () => {
   useEffect(() => {
     async function fetchData() {
       const { response, json } = await request(
-        "https://ranekapi.origamid.dev/json/api/produto/",
-        {
-          product,
-        }
+        "https://ranekapi.origamid.dev/json/api/produto/"
       );
     }
     fetchData();
