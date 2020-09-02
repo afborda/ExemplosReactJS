@@ -4,7 +4,7 @@
 
 1 - Basta fazer um clone no repositorio<br />
 2 - Executar npm install ou yarn install <br />
-3 - Após finalizar a execução do comnado anterior execute npm start ou yarn start<br/>
+3 - Após finalizar a execução do comando anterior execute npm start ou yarn start<br/>
 4 - Já vai estar tudo funcionando! =D<br />
 
 ### `O que temos de exemplo até o momento?`
@@ -40,6 +40,7 @@
 26 - Imagens<br />
 27 - Lazy e Suspense<br />
 28 - useReducer<br />
+29 - Testes Jest<br />
 
 ### `Como posso ajudar?`
 
