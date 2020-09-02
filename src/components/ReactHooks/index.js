@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import ConsumingHook from "./CustomHooks/ConsumingHook";
 import Product from "./Product";
 import ResultContextData from "./ResultContextData";
 import UseMemo from "./UseMemo";
@@ -41,6 +42,9 @@ const ReactHooks = () => {
       </div>
       <div style={{ border: "1px solid yellow" }}>
         <ResultContextData />
+      </div>
+      <div style={{ border: "1px solid red" }}>
+        <ConsumingHook />
       </div>
     </>
   );
