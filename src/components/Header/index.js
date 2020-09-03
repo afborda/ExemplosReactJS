@@ -7,7 +7,7 @@ const Header = () => {
       <NavLink to="/" end>
         Hooks
       </NavLink>
-      | <NavLink to="router">Router Dom</NavLink> |
+      |<NavLink to="router">Router Dom</NavLink>|
       <NavLink to="login">Login</NavLink>
     </nav>
   );

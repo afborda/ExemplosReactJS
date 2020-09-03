@@ -4,8 +4,8 @@ import { GlobalStorage } from "./components/ReactHooks/UseContext";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReactHooks from "./components/ReactHooks";
 import ReactRouter from "./components/ReactRouter";
-import NotFound from "./components/ReactRouter/PageNotFound";
-import Login from "./components/ReactRouter/Login";
+import NotFound from "./components/ReactRouter/components/PageNotFound";
+import Login from "./components/ReactRouter/components/Login";
 
 function App() {
   return (
