@@ -4,6 +4,7 @@ import Product from "./Product";
 import ResultContextData from "./ResultContextData";
 import UseMemo from "./UseMemo";
 import UseRef from "./UseRef";
+import "./style.css";
 
 const ReactHooks = () => {
   const [product, setProduct] = useState(null);
@@ -23,7 +24,6 @@ const ReactHooks = () => {
 
   return (
     <>
-      <h1>teste</h1>
       <div style={{ border: "1px solid red" }}>
         <h1>useEffect</h1>
         <h4>Preferencia: {product} </h4>

@@ -1,4 +1,4 @@
-## `Olá pessoal, criei este repositorio para iniciantes em ReactJS ou para desenvolvedores que querem ver um exemplo de implementação dos Hooks, router e etc`.
+## `Olá pessoal, criei este repositório para iniciantes em ReactJS ou para desenvolvedores que querem ver um exemplo de implementação dos Hooks, router , etc`.
 
 ### `Como funciona?`
 
