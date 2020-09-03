@@ -1,12 +1,25 @@
 import React from "react";
-import ReactHooks from "./components/ReactHooks";
+import Header from "./components/Header";
 import { GlobalStorage } from "./components/ReactHooks/UseContext";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ReactHooks from "./components/ReactHooks";
+import ReactRouter from "./components/ReactRouter";
+import NotFound from "./components/ReactRouter/PageNotFound";
+import Login from "./components/ReactRouter/Login";
+
 function App() {
   return (
     <>
-      <h1>Abner Fonseca</h1>
       <GlobalStorage>
-        <ReactHooks />
+        <BrowserRouter>
+          <Header />
+          <Routes>
+            <Route path="/" element={<ReactHooks />} />
+            <Route path="router" element={<ReactRouter />} />
+            <Route path="login" element={<Login />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
       </GlobalStorage>
     </>
   );

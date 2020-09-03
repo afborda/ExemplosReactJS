@@ -16,11 +16,11 @@
 5 - useMemo (Mostrando o resultando em console)<br />
 6 - useContext (consumindo o context)<br />
 7 - Fetch<br />
+8 - Router<br />
+9 - Link<br />
 
 ### `O que vamos adicionar ainda?`
 
-8 - Router<br />
-9 - Link<br />
 10 - useParams<br />
 11 - Nested Routers<br />
 12 - Head<br />
