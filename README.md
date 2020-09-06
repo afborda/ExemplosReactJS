@@ -18,11 +18,11 @@
 7 - Fetch<br />
 8 - Router<br />
 9 - Link<br />
+10 - useParams<br />
+11 - Nested Routers<br />
 
 ### `O que vamos adicionar ainda?`
 
-10 - useParams<br />
-11 - Nested Routers<br />
 12 - Head<br />
 13 - Inputs<br />
 14 - Textarea<br />
