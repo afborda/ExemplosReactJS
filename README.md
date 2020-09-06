@@ -21,26 +21,26 @@
 10 - useParams<br />
 11 - Nested Routers<br />
 12 - Head (Helmet)<br />
+13 - CSS Frameworks<br />
+14 - Styled Componentes<br />
 
 ### `O que vamos adicionar ainda?`
 
-13 - Inputs<br />
-14 - Textarea<br />
-15 - Select<br />
-16 - Checkbox<br />
-17 - Componentes Input<br />
-18 - Componentes Select<br />
-19 - Componentes Radio<br />
-20 - Componentes Checkbox<br />
-21 - Validação<br />
-22 - useForm<br />
-23 - Styled Componentes<br />
-24 - CSS Frameworks<br />
-25 - Animações<br />
-26 - Imagens<br />
-27 - Lazy e Suspense<br />
-28 - useReducer<br />
-29 - Testes Jest<br />
+-- - Inputs<br />
+-- - Textarea<br />
+-- - Select<br />
+-- - Checkbox<br />
+-- - Componentes Input<br />
+-- - Componentes Select<br />
+-- - Componentes Radio<br />
+-- - Componentes Checkbox<br />
+-- - Validação<br />
+-- - useForm<br />
+-- - Animações<br />
+-- - Imagens<br />
+-- - Lazy e Suspense<br />
+-- - useReducer<br />
+-- - Testes Jest<br />
 
 ### `Como posso ajudar?`
 

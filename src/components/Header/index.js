@@ -15,6 +15,7 @@ const Header = () => {
       |<NavLink to="router">Router Dom</NavLink>|
       <NavLink to="login">Login</NavLink>|
       <NavLink to="styledComponents">Styled-components</NavLink>|
+      <NavLink to="frameworkscss">Frameworks CSS</NavLink>|
       <NavLink to="animations">Animations</NavLink>
     </nav>
   );
