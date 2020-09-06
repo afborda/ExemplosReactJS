@@ -10,6 +10,7 @@ import ProductRoute from "./components/ReactRouter/components/useParams";
 import ProductDetails from "./components/ReactRouter/components/ProductDetails";
 import ProductEvaluation from "./components/ReactRouter/components/ProductEvaluation";
 import CustomizedProduct from "./components/ReactRouter/components/CustomizedProduct";
+import StyledComponents from "./components/StyledComponents";
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
               <Route path="avaliacao" element={<ProductEvaluation />} />
               <Route path="customizado" element={<CustomizedProduct />} />
             </Route>
+            <Route path="styledComponents" element={<StyledComponents />} />
+            <Route path="animations" element={<CustomizedProduct />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
