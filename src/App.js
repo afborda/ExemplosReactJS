@@ -6,6 +6,7 @@ import ReactHooks from "./components/ReactHooks";
 import ReactRouter from "./components/ReactRouter";
 import NotFound from "./components/ReactRouter/components/PageNotFound";
 import Login from "./components/ReactRouter/components/Login";
+import ProductRoute from "./components/ReactRouter/components/useParams";
 
 function App() {
   return (
@@ -15,8 +16,12 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<ReactHooks />} />
-            <Route path="router" element={<ReactRouter />} />
             <Route path="login" element={<Login />} />
+            <Route path="router" element={<ReactRouter />} />
+            <Route
+              path="router/productdetails/:id/*"
+              element={<ProductRoute />}
+            />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

@@ -15,8 +15,6 @@ export const GlobalStorage = ({ children }) => {
 
 export const useTest = () => {
   const context = useContext(GlobalContext);
-
   const { test, setTest } = context;
-
   return { test, setTest };
 };
