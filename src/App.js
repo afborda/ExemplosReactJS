@@ -7,6 +7,9 @@ import ReactRouter from "./components/ReactRouter";
 import NotFound from "./components/ReactRouter/components/PageNotFound";
 import Login from "./components/ReactRouter/components/Login";
 import ProductRoute from "./components/ReactRouter/components/useParams";
+import ProductDetails from "./components/ReactRouter/components/ProductDetails";
+import ProductEvaluation from "./components/ReactRouter/components/ProductEvaluation";
+import CustomizedProduct from "./components/ReactRouter/components/CustomizedProduct";
 
 function App() {
   return (
@@ -21,7 +24,11 @@ function App() {
             <Route
               path="router/productdetails/:id/*"
               element={<ProductRoute />}
-            />
+            >
+              <Route path="" element={<ProductDetails />} />
+              <Route path="avaliacao" element={<ProductEvaluation />} />
+              <Route path="customizado" element={<CustomizedProduct />} />
+            </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
