@@ -20,10 +20,10 @@
 9 - Link<br />
 10 - useParams<br />
 11 - Nested Routers<br />
+12 - Head (Helmet)<br />
 
 ### `O que vamos adicionar ainda?`
 
-12 - Head<br />
 13 - Inputs<br />
 14 - Textarea<br />
 15 - Select<br />

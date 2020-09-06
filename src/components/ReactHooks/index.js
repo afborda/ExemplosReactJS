@@ -4,6 +4,7 @@ import Product from "./Product";
 import ResultContextData from "./ResultContextData";
 import UseMemo from "./UseMemo";
 import UseRef from "./UseRef";
+import { Helmet } from "react-helmet";
 import "./style.css";
 
 const ReactHooks = () => {
@@ -24,6 +25,10 @@ const ReactHooks = () => {
 
   return (
     <>
+      <Helmet>
+        <title> ExempleJS | ReactJS</title>
+        <meta name="description" content="Essa é a pagina de Hooks" />
+      </Helmet>
       <div style={{ border: "1px solid red" }}>
         <h1>useEffect</h1>
         <h4>Preferencia: {product} </h4>
