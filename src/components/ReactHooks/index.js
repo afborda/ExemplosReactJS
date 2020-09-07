@@ -4,6 +4,7 @@ import Product from "./Product";
 import ResultContextData from "./ResultContextData";
 import UseMemo from "./UseMemo";
 import UseRef from "./UseRef";
+import UseReducer from "./useReducer";
 import { Helmet } from "react-helmet";
 import "./style.css";
 
@@ -50,6 +51,9 @@ const ReactHooks = () => {
       </div>
       <div style={{ border: "1px solid red" }}>
         <ConsumingHook />
+      </div>
+      <div style={{ border: "1px solid black" }}>
+        <UseReducer />
       </div>
     </>
   );

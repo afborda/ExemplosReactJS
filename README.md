@@ -25,6 +25,7 @@
 14 - Styled Componentes (Mostrando resultado em tela)<br />
 15 - Animações Simples (Mostrando resultado em tela)<br />
 16 - Animações Slider (Mostrando resultado em tela)<br />
+17 - useReducer (Hook para controle de estados maiores)<br />
 
 ### `O que vamos adicionar ainda?`
 
@@ -41,7 +42,6 @@
 -- - Animações<br />
 -- - Imagens<br />
 -- - Lazy e Suspense<br />
--- - useReducer<br />
 -- - Testes Jest<br />
 
 ### `Como posso ajudar?`
