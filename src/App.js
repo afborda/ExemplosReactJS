@@ -12,6 +12,7 @@ import ProductEvaluation from "./components/ReactRouter/components/ProductEvalua
 import CustomizedProduct from "./components/ReactRouter/components/CustomizedProduct";
 import StyledComponents from "./components/StyledComponents";
 import FrameworksCss from "./components/FrameworksCss";
+import Animation from "./components/Animations";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
               <Route path="customizado" element={<CustomizedProduct />} />
             </Route>
             <Route path="styledComponents" element={<StyledComponents />} />
-            <Route path="animations" element={<CustomizedProduct />} />
+            <Route path="animations" element={<Animation />} />
             <Route path="frameworkscss" element={<FrameworksCss />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

@@ -23,6 +23,8 @@
 12 - Head (Helmet) (Mostrando resultado em tela)<br />
 13 - CSS Frameworks (Mostrando resultado em tela)<br />
 14 - Styled Componentes (Mostrando resultado em tela)<br />
+15 - Animações Simples (Mostrando resultado em tela)<br />
+16 - Animações Slider (Mostrando resultado em tela)<br />
 
 ### `O que vamos adicionar ainda?`
 
