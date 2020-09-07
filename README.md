@@ -15,14 +15,14 @@
 4 - useRef com setTimeout (Mostrando resultado em tela)<br />
 5 - useMemo (Mostrando o resultando em console)<br />
 6 - useContext (consumindo o context)<br />
-7 - Fetch<br />
-8 - Router<br />
-9 - Link<br />
-10 - useParams<br />
-11 - Nested Routers<br />
-12 - Head (Helmet)<br />
-13 - CSS Frameworks<br />
-14 - Styled Componentes<br />
+7 - Fetch (Mostrando resultado em tela)<br />
+8 - Router (Mostrando resultado em tela)<br />
+9 - Link (Mostrando resultado em tela)<br />
+10 - useParams (Mostrando resultado em tela)<br />
+11 - Nested Routers (Mostrando resultado em tela)<br />
+12 - Head (Helmet) (Mostrando resultado em tela)<br />
+13 - CSS Frameworks (Mostrando resultado em tela)<br />
+14 - Styled Componentes (Mostrando resultado em tela)<br />
 
 ### `O que vamos adicionar ainda?`
 
