@@ -26,20 +26,21 @@
 15 - Animações Simples (Mostrando resultado em tela)<br />
 16 - Animações Slider (Mostrando resultado em tela)<br />
 17 - useReducer (Hook para controle de estados maiores)<br />
+18 - Validações(Mostrando resultado em tela)<br />
+19 - Unforme(Mostrando resultado em tela)<br />
+20 - Yup(Mostrando resultado em tela)<br />
+21 - Input Custom(Mostrando resultado em tela)<br />
+22 - Input(Mostrando resultado em tela)<br />
 
 ### `O que vamos adicionar ainda?`
 
--- - Inputs<br />
 -- - Textarea<br />
 -- - Select<br />
 -- - Checkbox<br />
--- - Componentes Input<br />
 -- - Componentes Select<br />
 -- - Componentes Radio<br />
 -- - Componentes Checkbox<br />
--- - Validação<br />
 -- - useForm<br />
--- - Animações<br />
 -- - Imagens<br />
 -- - Lazy e Suspense<br />
 -- - Testes Jest<br />

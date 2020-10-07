@@ -13,6 +13,7 @@ import CustomizedProduct from "./components/ReactRouter/components/CustomizedPro
 import StyledComponents from "./components/StyledComponents";
 import FrameworksCss from "./components/FrameworksCss";
 import Animation from "./components/Animations";
+import Unform from "./components/Unform";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
             <Route path="styledComponents" element={<StyledComponents />} />
             <Route path="animations" element={<Animation />} />
             <Route path="frameworkscss" element={<FrameworksCss />} />
+            <Route path="unform" element={<Unform />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
